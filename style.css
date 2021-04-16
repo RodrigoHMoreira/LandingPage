@@ -1,0 +1,77 @@
+body{
+  display: flex; 
+  flex-direction: row-reverse;
+  background: white;
+  margin: 5px;
+  font-family:Arial, sans-serif
+}
+header{
+  height:150px;
+  font-size:18pt;
+  text-align:center;
+  font-family:Impact, fantasy;
+}
+#logo{
+  height: 150px; 
+  padding:10px;
+  margin-top:-20px
+}
+#promo{
+  height: 300px;
+  width: 300px;
+  border:3px solid #228B22;
+  border-radius:30px;
+}
+#conteudo{
+  padding:10px;
+  height:325px;
+  font-size:15pt;
+  background:#98FB98;
+}
+form{
+  background: #228B22;
+  padding:10px;
+  height:700px;
+  width:1500px;
+  color:white;
+}
+#complemento{
+  height:200px;
+  padding:10px;
+  font-size:13pt;
+  background:#E0FFFF;
+}
+#tituloForm{
+  text-align:center;
+  font-size:15pt;
+}
+.input{
+  width:350px;
+  height:25px;
+}
+.input2{
+  width:350px;
+  height:70px;
+  text-align:justify;
+  font-size:15pt;
+}
+#painel{
+  margin-top: 70px;
+  margin-right: 20px;
+}
+#submit{
+  font-size:15pt;
+  background:#FFFF;
+  border: none;
+  padding:5px;
+  font-weight: 700;
+}
+#submit:hover{
+  cursor:pointer;
+}
+
+
+
+
+
+
