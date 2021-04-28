@@ -5,29 +5,29 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <form id="formulario">
-    <h2 id="tituloForm">PREENCHA OS CAMPOS PARA RECEBER O CÓDIGO DO SEU CUMPOM</h2>
-    <div id="painel">
+  <form>
+    <h2 id="tittleForm">PREENCHA OS CAMPOS PARA RECEBER O CÓDIGO DO SEU CUMPOM</h2>
+    <div id="boxForm">
       <ul>
       <label>E-mail:*</label></br>
-      <input id="dados1" class="input" type="text" value="" placeholder="email@mail.com" required></ul>      
+      <input id="dataMail" class="input" type="text" value="" placeholder="email@mail.com" required></ul>      
       <ul>
       <label>Nome:*</label></br>
-    <input id="dados2" class="input" type="text" value="" placeholder="Nome Completo" required></ul>
+    <input id="dataName" class="input" type="text" value="" placeholder="Nome Completo" required></ul>
     <ul>
       <label>Idade:*</label></br>
-    <input id="dados3" class="input" type="number" value="" placeholder="Selecione" required></ul>
+    <input id="dataAge" class="input" type="number" value="" placeholder="Selecione" required></ul>
    <ul>
      <label>Escreva sua resposta:*</label></br>
-    <input id="dados4" class="input2" type="text"></ul>
+    <input id="dataAnswer" class="input2" type="text"></ul>
     <ul><label>Quero receber ofertas e promoções por e-mail: </label></ul>
       <ul><input type="radio"name="button" checked>Sim</ul>
       <ul><input type="radio" name="button">Não</ul>
-      <ul><input id="submit" type="button" value="Enviar" onclick="Enviar()"></ul>
+      <ul><input id="submitButton" type="button" value="Enviar" onclick="submitForm()"></ul>
     </div>
   </form>            
- <article id="wrapper">
-   <header id="title">
+ <article>
+   <header>
     <table>
      <tr>
       <td><img id="logo" src="https://www.logaster.com.br/blog/wp-content/uploads/sites/6/2019/03/0093_h_global-flight-source-logo_13.png"></td>         
@@ -35,20 +35,18 @@
      </tr>
     </table>
   </header>
-  <div id="conteudo">
+  <div id="contents">
     <table>
      <tr>
       <td><h2>Quer aproveitar os 5% de desconto em todos os nosso pacotes, para qualquer destino durante o perído de férias...</h2>
       <p>É só nos dizer qual linha aréa é a fonte global de vôos mais rápida e segura do mundo...</p></td>
     </table>  
    </div>      
-  <aside id="complemento">
+  <aside id="complement">
     <h3>E aí, vai perder essa super oportunidade de aproveitar suas férias?</h3><p>Para adiquir o seu cupom basta preencher o formulário ao lado, sem esquecer de responder a pergunta corretamente.O código que garante o desconto do cupom será enviado imediatmente para seu e-mail.</p>
   </aside>
  </article>
  <script src="script.js"></script>
 </body> 
 </html>
-
-
 

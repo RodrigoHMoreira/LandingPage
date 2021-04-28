@@ -1,76 +1,78 @@
 body{
-    display: flex; 
-    flex-direction: row-reverse;
-    background: url('https://blog.tzviagens.com.br/wp-content/uploads/2017/10/viagem-aviao-tzviagens.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 30px 10px 30px 10px;
-    font-family:Arial, sans-serif;
-    justify-content: space-around;
-  }
-  header{
-    height:150px;
-    font-size:18pt;
-    text-align:center;
-    font-family:Impact, fantasy;
-    background: #FFFF;
-    margin-right: 10px;
-  }
-  #logo{
-    height: 100px; 
-    padding:10px;
-  }
-  #conteudo{
-    padding:10px;
-    height:250px;
-    font-size:15pt;
-    background: rgba(0,0,0,0.3);
-    color: white;
-    margin-right: 10px;
-    margin-top: 10px;
-  }
-  form{
-    background: rgba(0,0,0,0.3);
-    color:white;
-    padding:5px;
-    height:620px;
-    width:800px;
-  }
-  #complemento{
-    height:170px;
-    padding:10px;
-    font-size:15pt;
-    background: rgba(248, 248, 255,0.3);
-    margin-right: 10px;
-    margin-top: 10px;
-  }
-  #tituloForm{
-    text-align:center;
-    font-size:18pt;
-  }
-  .input{
-    width:400px;
-    height:25px;
-  }
-  .input2{
-    width:400px;
-    height:70px;
-    text-align:justify;
-    font-size:15pt;
-  }
-  #painel{
-    margin-top:70px;
-    margin-right: 20px;
-  }
-  #submit{
-    font-size:15pt;
-    background:#FFFF;
-    border: none;
-    padding:5px;
-    font-weight: 700;
-    border-radius:5px;
-  }
-  #submit:hover{
-    cursor:pointer;
-  }        
+  display: flex; 
+  flex-direction: row-reverse;
+  background: url('https://blog.tzviagens.com.br/wp-content/uploads/2017/10/viagem-aviao-tzviagens.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 30px 10px 30px 10px;
+  font-family:Arial, sans-serif;
+  justify-content: space-around;
+}
+header{
+  height:150px;
+  font-size:18pt;
+  text-align:center;
+  font-family:Impact, fantasy;
+  background: #FFFF;
+  margin-right: 10px;
+}
+#logo{
+  height: 100px; 
+  padding:10px;
+}
+#contents{
+  padding:10px;
+  height:250px;
+  font-size:15pt;
+  background: rgba(0,0,0,0.3);
+  color: white;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+form{
+  background: rgba(0,0,0,0.3);
+  color:white;
+  padding:5px;
+  height:620px;
+  width:800px;
+}
+#complement{
+  height:170px;
+  padding:10px;
+  font-size:15pt;
+  background: rgba(248, 248, 255,0.3);
+  margin-right: 10px;
+  margin-top: 10px;
+}
+#tittleForm{
+  text-align:center;
+  font-size:18pt;
+}
+.input{
+  width:400px;
+  height:25px;
+}
+.input2{
+  width:400px;
+  height:70px;
+  text-align:justify;
+  font-size:15pt;
+}
+#boxForm{
+  margin-top:70px;
+  margin-right: 20px;
+}
+#submitButton{
+  font-size:15pt;
+  background:#FFFF;
+  border: none;
+  padding:5px;
+  font-weight: 700;
+  border-radius:5px;
+}
+#submitButton:hover{
+  cursor:pointer;
+}        
+
+
   
