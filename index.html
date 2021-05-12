@@ -6,23 +6,37 @@
 </head>
 <body>
   <form>
-    <h2 id="tittleForm">PREENCHA OS CAMPOS PARA RECEBER O CÓDIGO DO SEU CUMPOM</h2>
+    <h2 id="tittleForm">PREENCHA OS CAMPOS ABAIXO PARA RECEBER O CÓDIGO DO SEU CUMPOM</h2>
     <div id="boxForm">
       <ul>
-      <label>E-mail:*</label></br>
-      <input id="dataMail" class="input" type="text" value="" placeholder="email@mail.com" required></ul>      
+      <label>E-mail:*</label>
+      <input id="dataMail" class="input" type="text" value="" placeholder="email@mail.com"></ul>      
       <ul>
-      <label>Nome:*</label></br>
-    <input id="dataName" class="input" type="text" value="" placeholder="Nome Completo" required></ul>
+      <label>Nome:*</label>
+    <input id="dataName" class="input" type="text" value="" placeholder="Nome Completo"></ul>
     <ul>
-      <label>Idade:*</label></br>
-    <input id="dataAge" class="input" type="number" value="" placeholder="Selecione" required></ul>
+      <label>Idade:*</label>
+    <input id="dataAge" class="input" type="number" value="" placeholder="Selecione"></ul>
+    <ul>
+      <label>Endereço:*</label>
+    <input id="dataCEP" class="input" type="text"  value="" placeholder="Digite seu CEP"></ul>
+      <p id="subTittle">PRENCHA OS CAMPOS ABAIXO PARA ENCONTRAR O CEP</p>
+    <ul>
+        <label> </label>
+    <input id="stateUF" class="input" type="text"  value="" placeholder="Digite a UF do Estado"></ul>
+    <ul>
+      <label> </label>
+    <input id="city" class="input" type="text"  value="" placeholder="Digite o Nome da Cidade"></ul>
+    <ul>
+      <label> </label>
+    <input id="street" class="input" type="text"  value="" placeholder="Digite o Nome da Rua"></ul>
+    <ul><input id="fetchCEP" type="button" value="Buscar" onclick="findCEP()"></ul>
    <ul>
-     <label>Escreva sua resposta:*</label></br>
+     <label>Escreva sua resposta:*</label>
     <input id="dataAnswer" class="input2" type="text"></ul>
     <ul><label>Quero receber ofertas e promoções por e-mail: </label></ul>
-      <ul><input type="radio"name="button" checked>Sim</ul>
-      <ul><input type="radio" name="button">Não</ul>
+      <ul><input type="radio"name="button" checked>Sim
+      <input type="radio" name="button">Não</ul>
       <ul><input id="submitButton" type="button" value="Enviar" onclick="submitForm()"></ul>
     </div>
   </form>            
@@ -38,12 +52,12 @@
   <div id="contents">
     <table>
      <tr>
-      <td><h2>Quer aproveitar os 5% de desconto em todos os nosso pacotes, para qualquer destino durante o perído de férias...</h2>
+      <td><h1>Quer aproveitar os 5% de desconto em todos os nosso pacotes, para qualquer destino durante o perído de férias...</h1>
       <p>É só nos dizer qual linha aréa é a fonte global de vôos mais rápida e segura do mundo...</p></td>
     </table>  
    </div>      
   <aside id="complement">
-    <h3>E aí, vai perder essa super oportunidade de aproveitar suas férias?</h3><p>Para adiquir o seu cupom basta preencher o formulário ao lado, sem esquecer de responder a pergunta corretamente.O código que garante o desconto do cupom será enviado imediatmente para seu e-mail.</p>
+    <h1>E aí, vai perder essa super oportunidade de aproveitar suas férias?</h1><p>Para adiquir o seu cupom basta preencher o formulário ao lado, sem esquecer de responder a pergunta corretamente.O código que garante o desconto do cupom será enviado imediatmente para seu e-mail.</p>
   </aside>
  </article>
  <script src="script.js"></script>

@@ -22,7 +22,7 @@ header{
 }
 #contents{
   padding:10px;
-  height:250px;
+  height:300px;
   font-size:15pt;
   background: rgba(0,0,0,0.3);
   color: white;
@@ -32,38 +32,38 @@ header{
 form{
   background: rgba(0,0,0,0.3);
   color:white;
-  padding:5px;
-  height:620px;
-  width:800px;
+  padding:3px;
+  height:730px;
+  width:500px;
 }
 #complement{
-  height:170px;
+  height:225px;
   padding:10px;
   font-size:15pt;
   background: rgba(248, 248, 255,0.3);
   margin-right: 10px;
   margin-top: 10px;
 }
-#tittleForm{
+#tittleForm, #subTittle{
   text-align:center;
-  font-size:18pt;
+  font-size:15pt;
 }
 .input{
   width:400px;
-  height:25px;
+  height:20px;
 }
 .input2{
   width:400px;
-  height:70px;
+  height:30px;
   text-align:justify;
   font-size:15pt;
 }
 #boxForm{
-  margin-top:70px;
+  margin-top:10px;
   margin-right: 20px;
 }
-#submitButton{
-  font-size:15pt;
+#submitButton, #fetchCEP{
+  font-size:11pt;
   background:#FFFF;
   border: none;
   padding:5px;
@@ -72,7 +72,10 @@ form{
 }
 #submitButton:hover{
   cursor:pointer;
-}        
+}
+ #labelRed{
+   color:#f01414
+ }
 
 
   
